@@ -20,6 +20,10 @@
 - 2. 查看 CPU 架构可连接 SSH 后执行命令 `uname -ms`，若执行结果是“linux aarch64”，就是搭载的 ARMv8 架构
 
 # 二、 使用方法
+## 0. Install country.mmdb
+
+[Country.mmdb](https://github.com/SukkaW/Koolshare-Clash/raw/master/koolclash/koolclash/config/Country.mmdb)
+
 ## 1. 导入内核 Linux 版（以 [ShellClash](https://github.com/juewuy/ShellClash) 导入 Clash.Meta 内核为例）
 CPU 架构和内核下载链接后缀对应关系如下：
 |CPU 架构|AMD64|ARMv5|ARMv6|ARMv7|ARMv8|mips-softfloat|mipsle-hardfloat|mipsle-softfloat|
